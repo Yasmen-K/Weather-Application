@@ -85,7 +85,7 @@ function backgroundChange(maxTemp){
     let dynamicElement = document.getElementById('dynamic-data');
 
     if (maxTemp < 40 && maxTemp > 20){
-        document.body.style.backgroundImage = "url('summer.jpg')";
+        document.body.style.backgroundImage = "url('images/summer.jpg')";
         header.style.color = 'LightCyan';
         buttonElement.style.backgroundColor = 'DarkTurquoise';
         buttonElement.style.color = 'white';
@@ -95,7 +95,7 @@ function backgroundChange(maxTemp){
     }
     
     if (maxTemp < 20 && maxTemp > 15){
-        document.body.style.backgroundImage = "url('spring.jpg')";
+        document.body.style.backgroundImage = "url('images/spring.jpg')";
         header.style.color = 'white';
         buttonElement.style.backgroundColor = 'MediumVioletRed';
         buttonElement.style.color = 'white';
@@ -106,7 +106,7 @@ function backgroundChange(maxTemp){
     }
     
     if (maxTemp < 15 && maxTemp > 10){
-        document.body.style.backgroundImage = "url('autumn.jpg')";
+        document.body.style.backgroundImage = "url('images/autumn.jpg')";
         header.style.color = 'Gold';
         buttonElement.style.backgroundColor = 'Gold';
         buttonElement.style.color = 'white';
@@ -115,7 +115,7 @@ function backgroundChange(maxTemp){
         return
         
     }
-        document.body.style.backgroundImage = "url('winter.jpg')";
+        document.body.style.backgroundImage = "url('images/winter.jpg')";
         header.style.color = 'LavenderBlush';
         buttonElement.style.backgroundColor = 'SteelBlue';
         buttonElement.style.color = 'white';
