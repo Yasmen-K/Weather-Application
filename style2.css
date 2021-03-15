@@ -1,0 +1,89 @@
+body{
+    background-image: url('images/clouds.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    transition: opacity 1s ease-in-out;
+    
+}
+
+
+.form-group{
+    
+    margin: 200px auto;
+    margin-bottom: 60px;
+    width:30%;
+    border:3px solid black;
+    padding: 50px -10px;
+    text-align: center;
+    
+    
+}
+
+#input-city{
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    border: 0;
+    border-bottom: solid 5px black;
+    background-color: transparent;
+    outline: 0;
+    display: block;
+}
+
+
+#input-city[type=text]{
+    color: white;
+    font-size: 30px;
+    font-weight: 20px;
+}
+
+
+h1{
+    
+    font-size: 40px;
+    font-weight: bold;
+    color: #09015f;
+}
+
+#submitBtn {
+    margin: 20px auto;
+    background-color: #19456b;
+    border-radius: 20px;
+    
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bolder;
+    color: white;
+    border: 0;
+    outline-style: none;
+}
+
+::placeholder{
+    font-size: 25px;
+    color: honeydew;
+}
+
+
+#dynamic-data{
+    
+    margin: auto;
+    align-content: center;
+    height: 400px;
+    width: 300px;
+    border: solid;
+    background-color: azure;    
+    border-radius: 20px;
+}
+
+.weather-data{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+img{
+    padding-left: 60px;
+}

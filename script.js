@@ -91,6 +91,7 @@ function backgroundChange(maxTemp){
         buttonElement.style.color = 'white';
         inputField.style.borderBottomColor = 'DarkTurquoise';
         dynamicElement.style.borderColor = 'DarkTurquoise';
+        
         return
     }
     
@@ -112,6 +113,7 @@ function backgroundChange(maxTemp){
         buttonElement.style.color = 'white';
         inputField.style.borderBottomColor = 'Gold';
         dynamicElement.style.borderColor = 'Gold';
+        document.body.style.transition = 'opacity 2s ease-in-out'
         return
         
     }
